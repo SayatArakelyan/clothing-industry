@@ -1,9 +1,12 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
-function LogoContent(props) {
+function LogoContent() {
     return (
         <div className="logo__content">
-            <a href="src/headerChild/LogoContent#" className="logo">Clothing Industry</a>
+            <Link to="/" className="logo">Clothing Industry</Link>
+
+
         </div>
     );
 }
